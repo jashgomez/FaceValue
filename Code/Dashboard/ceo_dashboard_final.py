@@ -32,7 +32,7 @@ st.markdown("""
 def load_data():
     """Load the CEO dataset"""
     try:
-        df = pd.read_csv('Dashboard/clean_data.csv')
+        df = pd.read_csv('Code/Dashboard/clean_data.csv')
         # Clean column names
         df.columns = df.columns.str.strip()
         return df
