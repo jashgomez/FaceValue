@@ -1,0 +1,16 @@
+streamlit==1.30.0
+pandas==2.1.0
+plotly==5.17.0
+scipy==1.11.0
+numpy==1.24.0
+Pillow==10.0.0
+```
+
+Your folder structure should look like this:
+```
+your_project_folder/
+├── ceo_dashboard_final.py (or whatever you named it)
+├── clean_data.csv
+├── requirements.txt
+└── matched_pictures/
+    └── (all your CEO photos)
