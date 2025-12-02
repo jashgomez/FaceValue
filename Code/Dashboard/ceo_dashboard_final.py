@@ -32,7 +32,7 @@ st.markdown("""
 def load_data():
     """Load the CEO dataset"""
     try:
-        df = pd.read_csv('clean_data.csv')
+        df = pd.read_csv('Dashboard/clean_data.csv')
         # Clean column names
         df.columns = df.columns.str.strip()
         return df
@@ -45,7 +45,7 @@ def get_ceo_image(ceo_name, year):
     Find and load CEO image from matched_pictures folder
     Returns PIL Image object or None if not found
     """
-    base_dir = "matched_pictures"
+    base_dir = "Output Data/matched_pictures"
     
     # Build the path: matched_pictures/CEO_Name/Year/
     folder_path = os.path.join(base_dir, ceo_name, str(year))
