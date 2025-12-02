@@ -36,3 +36,6 @@ outcomes into a single analytic file used for prediction and bias testing.
 ## Results 
 1. Investors’ projected assessments of CEO traits do not significantly predict next-year firm returns after accounting for firm size, sector, demographics, and fixed effects, suggesting these judgments reflect bias rather than true performance signals.
 2. The model also shows clear demographic patterns in how it assigns traits, with gender, age, and race influencing inferred qualities in systematic ways that indicate the AI relies on demographic cues when forming personality judgments.
+
+## Presentation
+https://docs.google.com/presentation/d/1tj8PY_voMla6jQJN8xWxcEIgJF4lRStU0coPpfOmzCg/edit?usp=sharing
